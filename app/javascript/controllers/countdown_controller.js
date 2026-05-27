@@ -24,7 +24,7 @@ export default class extends Controller {
     const diff = target - now
 
     if (diff <= 0) {
-      this.element.innerHTML = "🎉 卒業しました!"
+      this.element.textContent = "🎉 卒業しました!"
       clearInterval(this.timer)
       return
     }
@@ -34,7 +34,7 @@ export default class extends Controller {
     const minutes = Math.floor((diff / (1000 * 60)) % 60)
     const seconds = Math.floor((diff / 1000) % 60)
 
-    this.element.innerHTML =
+    this.element.textContent =
       `残り${days}日 ${hours}時間 ${minutes}分 ${seconds}秒`
   }
 }
