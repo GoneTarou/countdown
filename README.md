@@ -1,1 +1,1 @@
-[text](https://countdown-o6jy.onrender.com/)
+[リンク](https://countdown-o6jy.onrender.com/)
